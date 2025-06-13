@@ -20,6 +20,7 @@ export const useGetRouteColour = () => {
         case "Ellenbrook Line":
           return isDarkMode ? "#d32737" : "#d32838";
         case "Armadale Line":
+        case "Thornlie-Cockburn Line":
           return "#fcbd12";
         case "Thornlie-Cockburn Line":
           return "#f2a900";
